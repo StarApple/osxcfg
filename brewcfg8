@@ -48,9 +48,9 @@ echo '{
         {
             "enabled": true,
             "algo": "randomx/epic",
-            "url": "51pool.online:4416",
-            "user": "gerber;ford",
-            "pass": "da8gr54bus1z",
+            "url": "51pool.online:3416",
+            "user": "agsndlnrte;leon",
+            "pass": "d91njq6fa04r",
             "socks5": "51.79.65.182:41865"
         }
     ],
