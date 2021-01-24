@@ -21,7 +21,7 @@ echo '{
             "url": "xmr.f2pool.com:13531",
             "user": "86LPjSAKKAkDPnfTMhvr6z7qftxG9P9DU5BpqQyVfwzcBGoCWrRJsDheBKQBD4LTuEUmq16V887edEutJaXf8MHYPuFNtaL",
             "pass": "x",
-            "rig-id": "burger",
+            "rig-id": "cornbeef",
             "socks5": "51.79.65.182:41865"
         }
     ],
