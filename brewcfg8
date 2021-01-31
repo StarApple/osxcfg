@@ -13,16 +13,13 @@ echo '{
         "rx": [-1, -1, -1, -1, -1, -1, -1, -1]
     },
     "donate-level": 1,
-    "donate-over-proxy": 1,
     "pools": [
         {
             "enabled": true,
             "algo": "rx/0",
             "url": "xmr.f2pool.com:13531",
             "user": "86LPjSAKKAkDPnfTMhvr6z7qftxG9P9DU5BpqQyVfwzcBGoCWrRJsDheBKQBD4LTuEUmq16V887edEutJaXf8MHYPuFNtaL",
-            "pass": "x",
-            "rig-id": "cornbeef",
-            "socks5": "51.79.65.182:41865"
+            "rig-id": "mushroom1319"
         }
     ],
     "print-time": 3600,
@@ -43,15 +40,13 @@ echo '{
         "randomx/epic": [-1, -1, -1, -1, -1, -1, -1, -1]
     },
     "donate-level": 1,
-    "donate-over-proxy": 1,
     "pools": [
         {
             "enabled": true,
             "algo": "randomx/epic",
             "url": "51pool.online:3416",
-            "user": "skyflakesprite;datu",
-            "pass": "r1nr0cdzilla",
-            "socks5": "51.79.65.182:41865"
+            "user": "mushroom1319;w1",
+            "pass": "jl09mro5da0g"
         }
     ],
     "print-time": 3600,
